@@ -1,5 +1,5 @@
 Install
-    npm install json-server
+$ npm install json-server
 
-To start the server, run the following command :
-    json-server db.json -p <port>
+Pass it to JSON Server CLI
+$ npx json-server db.json
