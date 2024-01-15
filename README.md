@@ -1,7 +1,31 @@
-Install
+# JSON Server Multiple Files/Resources
 
-$ npm install json-server
+JSON Server: https://github.com/MaxGalliot/rest_api_recipes
 
-Pass it to JSON Server CLI
+### Install Global
 
-$ npx json-server db.json -p 5000
+```
+npm install -g json-server
+```
+
+### Install local
+
+```
+npm install
+```
+
+## Structure
+
+```
+├── README.md
+├── fakeapis
+│   ├── index.js
+│   ├── db.json
+│   └── dataset_nutrition.json
+├── package-lock.json
+├── package.json
+```
+
+## Run JSON server
+
+- `npm start`: Start json server multiple files
